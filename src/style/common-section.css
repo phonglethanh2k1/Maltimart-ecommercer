@@ -1,0 +1,13 @@
+.common_section {
+  background: url('../assets/images/1.jpg') no-repeat center center;
+  background-size: cover;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  padding: 100px 0px;
+  justify-content: center;
+}
+.common_section h1 {
+  color: #fff;
+  font-weight: 600;
+}

@@ -1,5 +1,5 @@
 /* google fonts */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
 
 /*  css variables */
 :root {
@@ -22,7 +22,7 @@
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1,
@@ -53,4 +53,26 @@ ul {
 a {
   text-decoration: none;
   color: unset;
+}
+img {
+  width: 100%;
+}
+section {
+  padding: 60px 0px;
+}
+.section_title {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1); /* Màu nền mờ với độ trong suốt (opacity) 0.5 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999; /* Đảm bảo overlay hiển thị trên tất cả các phần tử khác */
 }
